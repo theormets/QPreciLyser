@@ -1,2 +1,12 @@
-# QPrecipiLyser
- Detect and quantify precipitates in microstructure images. The tool extracts dimensional features, calculates area metrics, and presents the precipitate size distribution through tabulated data and histograms.
+---
+title: PrecipiDetectV2
+emoji: ⚡
+colorFrom: indigo
+colorTo: blue
+sdk: gradio
+sdk_version: 6.5.1
+app_file: app.py
+pinned: false
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference

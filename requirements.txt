@@ -1,0 +1,26 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.10.0+cpu
+ultralytics
+opencv-python-headless
+numpy
+pandas
+matplotlib
+seaborn
+gradio
+Pillow
+openpyxl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
