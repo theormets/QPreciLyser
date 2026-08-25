@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PrecipiDetect</title>
+
+  <!-- This must match the Gradio version in your HF README -->
+  <script
+    type="module"
+    src="https://gradio.s3-us-west-2.amazonaws.com/6.5.1/gradio.js">
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f3f6fb;
+      color: #172033;
+      font-family: Arial, sans-serif;
+    }
+
+    .site-header {
+      padding: 32px 20px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #312e81, #2563eb);
+    }
+
+    .site-title {
+      margin: 0 0 8px;
+      font-size: 2.2rem;
+    }
+
+    .site-description {
+      margin: 0 auto;
+      max-width: 750px;
+      line-height: 1.5;
+    }
+
+    .app-container {
+      max-width: 1450px;
+      margin: 24px auto;
+      padding: 0 16px 40px;
+    }
+
+    gradio-app {
+      display: block;
+      width: 100%;
+      min-height: 1000px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(30, 41, 59, 0.12);
+      overflow: hidden;
+    }
+
+    .site-footer {
+      padding: 18px;
+      text-align: center;
+      color: #64748b;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site-header">
+    <h1 class="site-title">🔬 PrecipiDetect</h1>
+    <p class="site-description">
+      Detect, measure, and quantify precipitates in microstructure images.
+    </p>
+  </div>
+
+  <div class="app-container">
+    <!-- Replace this with your real Hugging Face username and Space name -->
+    <gradio-app
+      space="YOUR_HF_USERNAME/PrecipiDetectV2"
+      eager="true"
+      initial_height="1000px"
+      container="false"
+      info="false"
+      autoscroll="true">
+    </gradio-app>
+
+    <noscript>
+      JavaScript must be enabled to use PrecipiDetect.
+    </noscript>
+  </div>
+
+  <div class="site-footer">
+    PrecipiDetect — microstructure precipitate analysis
+  </div>
+</body>
+</html>
