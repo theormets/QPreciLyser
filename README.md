@@ -1,5 +1,5 @@
 ---
-title: PrecipiDetectV2
+title: QPreciLyser
 emoji: ⚡
 colorFrom: indigo
 colorTo: blue
